@@ -164,7 +164,7 @@ def display_raw_data(df):
     """
     num_rows, _ = df.shape
     # Current window of 5 rows to display.
-    window, window_length = 1, 5
+    window, window_size = 1, 5
     # Compute the number of windows of length 5, each window displayed at a time.
     windows = num_rows // 5 if num_rows % 5 == 0 else num_rows // 5 + 1
     # Iterates through each window of 5 rows at a time.
@@ -183,10 +183,10 @@ def display_raw_data(df):
         # the integer row label.
         if window == windows:
             # Print the trailing rows in the last window
-            print(df.iloc[(window - 1)*window_length:])
+            print(df.iloc[(window - 1)*window_size:])
         else:
             # Print 5 rows at a time.
-            print(df.iloc[(window - 1)*window_length:(window)*window_length])
+            print(df.iloc[(window - 1)*window_size:(window)*window_size])
 
         window += 1
 
