@@ -19,3 +19,13 @@ There are three csv data files, one separate file for the data of each city. All
 #### Source Code Files
 
 There is a single source code file in this project, a file named "bikeshare.py". It basically includes a set of functions, each for a different set of statistics. The code mostly follows the initial template, provided by the Udacity instructors. I defined an additional function for displaying a set of rows for the end user, 5 rows at a time.
+
+### Running Instructions
+
+Should you need to run this script, provided the respective data files, all you have to do is to change your working directory to the source code file's folder; then, type "python bikeshare.py" in the terminal. Notice that the csv data files should be in the same folder as the folder of the script file.
+
+#### Requirements
+
+- python 3.6.13
+- pandas 1.1.5
+- numpy 1.19.5
