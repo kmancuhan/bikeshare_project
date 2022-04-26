@@ -10,5 +10,10 @@ The original project was designed for the completion of a course project in the 
 
 The project is designed with a simple user interface on terminal. It basically asks the user which city they would like to see the statistics from, and some filters to limit the demographic of the computed statistic.
 
-### Files used
-Include the files used
+### Files Used
+
+#### Data Files
+
+There are three csv data files, one separate file for the data of each city. All datasets are already preprocessed and prepared for computing the statistics by the Udacity's relevant curriculum developed team. Notice that the original data is derived from many different distributed data sources. However, I won't include the data files here due to copyright reasons.
+
+#### Source Code Files
