@@ -17,3 +17,5 @@ The project is designed with a simple user interface on terminal. It basically a
 There are three csv data files, one separate file for the data of each city. All datasets are already preprocessed and prepared for computing the statistics by the Udacity's relevant curriculum developed team. Notice that the original data is derived from many different distributed data sources. However, I won't include the data files here due to copyright reasons.
 
 #### Source Code Files
+
+There is a single source code file in this project, a file named "bikeshare.py". It basically includes a set of functions, each for a different set of statistics. The code mostly follows the initial template, provided by the Udacity instructors. I defined an additional function for displaying a set of rows for the end user, 5 rows at a time.
