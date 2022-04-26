@@ -1,8 +1,7 @@
 ### Date created
 On April 26th, 2022.
 
-### Project Title
-Replace the Project Title
+### Bike Share Project
 
 ### Description
 Describe what your project is about and what it does
